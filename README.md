@@ -74,7 +74,7 @@ func _physics_process(delta):
 
 Run the scene. The result should look something like this: 
 
-![Cabin example](https://github.com/BL-MSCH-C220-S21/Exercise-05d-Lighting/blob/master/cabin.gif)
+![Cabin example](https://github.com/BL-MSCH-C220-S21/Exercise-05d-Lighting/blob/main/cabin.gif)
 
 Quit Godot. In GitHub desktop, add a summary message, commit your changes and push them back to GitHub. If you return to and refresh your GitHub repository page, you should now see your updated files with the time when they were changed.
 
