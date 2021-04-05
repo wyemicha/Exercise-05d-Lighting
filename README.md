@@ -1,6 +1,8 @@
 # Exercise-05d-Lighting
 Exercise for MSCH-C220, 5 April 2021
 
+A demonstration of this exercise is available at [https://youtu.be/MN-i5QDBDcc](https://youtu.be/MN-i5QDBDcc)
+
 The purpose of this exercise is for you to explore 3D lighting and camera movement in Godot. There are many steps, and some of the concepts are a little complicated, so I would recommend that you stop and test frequently. I have tried to be as clear as possible.
 
 This exercise is loosely based on the How to light a 3d scene in Godot (3d tutorial) by GDQuest. The YouTube video is
@@ -39,7 +41,7 @@ Godot, by default, creates a procedurally-generated skybox for 3D games with a b
 
 Right click on the World node and Add Child Node. Select GIProbe. This will provide some constraints to Godot for precomputing the global illumination. Select the GIProbe node, and in the inspector, set the Extents to x=30, y=30, z=30. Immediately over the Viewport, you should see a button labeled Bake GIProbe. Press that now. Now, we would prefer to not have to look at the green cube, so we will hide it in the editor. To the left of the Bake GIProbe button is one labeled View. If you press that, you should see a Gizmos submenu. Select the eye next to GIProbe (so the eye is now closed).
 
-Right click on the World node and Add Child Node. Select WorldEnvironment. Drag it to the top of the Scene panel, so it appears immediately under World. In the Inspector, select Environment and choose New Environment. After the new Environment has been created, select Environment again and Save it as res://Enironment.tres. Then select Environment once more and choose Edit.
+Right click on the World node and Add Child Node. Select WorldEnvironment. Drag it to the top of the Scene panel, so it appears immediately under World. In the Inspector, select Environment and choose New Environment. After the new Environment has been created, select Environment again and Save it as res://Environment.tres. Then select Environment once more and choose Edit.
 
 Under Background->Mode, select Sky, and under Background->Sky, select New PanoramaSky. Edit the PanoramaSky, and drag the res://Assets/venice_sunset_1k.hd file (acquired [from HDRIHaven](https://hdrihaven.com/hdri/?h=venice_sunset)) into Panorama. The skybox should now appear as a boardwalk at sunset in Venice. Go back to editing the Environment. 
 
